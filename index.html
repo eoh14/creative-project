@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -13,51 +14,66 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <link rel='stylesheet' href='web-design-p.css' />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">La Casa: House for Sale</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand font-big" href="#">eriene oh</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                </div>
+
+            <div class="collapse navbar-collapse font-normal" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="life-philosophy.html">life philosophy </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item font-normal" href="contact.html">contact</a>
+                            <a class="dropdown-item font-normal" href="pricing.html">pricing</a>
+                            <!-- <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a> -->
+                        </div>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">search</button>
+                </form>
             </div>
         </nav>
         <div class="container">
-            <img src='house.jpg' class='img-fluid' alt='a picture of house'>
-            <!-- <div class='spacing'></div>
-            <div class="row">
-                <div class="col-sm">
-                    
-                </div>
-                <div class="col-sm">
-                    
-                </div>
-                <div class="col-sm">
-                    
-                </div>
-            </div>
-        </div> -->
+            <img src='e-flag.jpg' class='img-fluid img-size rounded' alt='a picture of eriene'>
+        </div>
 
 
+        <div class="container">
         <!-- Grid row -->
             <div class="row">
             
                 <!-- Grid column -->
-                <div class="col-md-12 d-flex justify-content-center mb-5">
+                <!-- <div class="col-md-12 d-flex justify-content-center mb-5">
             
                     <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="all">All</button>
                     <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="1">Inside</button>
                     <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="2">Outside</button>
             
-                </div>
+                </div> -->
                 <!-- Grid column -->
+            <p class='p-style'> Why, Hello there...</p>
             
             </div>
             <!-- Grid row -->
@@ -67,43 +83,96 @@
             
                 <!-- Grid column -->
                 <div class="mb-3 pics animation all 1">
-                    <img src='bathroom.jpg' class='img-fluid' alt='picture of bathroom'>
+                    <img src='e-boat.jpg' class='img-fluid' alt='picture of boat'>
                 </div>
                 <!-- Grid column -->
 
                 <!-- Grid column -->
                 <div class="mb-3 pics animation all 1">
-                    <img src='living-room.jpg' class='img-fluid' alt='just a living room'>
+                    <img src='e-mission.jpg' class='img-fluid' alt='on my mission'>
                 </div>
                 <!-- Grid column -->
 
                 <!-- Grid column -->
                 <div class="mb-3 pics animation all 2">
-                    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="Card image cap">
+                    <img class="img-fluid" src="e-build.jpg" alt="building a home">
                 </div>
                 <!-- Grid column -->
 
                 <!-- Grid column -->
                 <div class="mb-3 pics animation all 2">
-                    <img src='chill.jpg' class='img-fluid' alt='picture of chill area'>
-                </div>
-                <!-- Grid column -->
-                <!-- Grid column -->
-                <div class="mb-3 pics animation all 1">
-                    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-                        alt="Card image cap">
+                    <img src='e-hear.jpg' class='img-fluid' alt='hearing Christ'>
                 </div>
                 <!-- Grid column -->
                 <!-- Grid column -->
                 <div class="mb-3 pics animation ">
-                    <img src='window.jpg'class="img-fluid" alt='a window'>
+                    <img src='e-sword.jpg'class="img-fluid" alt='eriene doing martial arts'>
                 </div>
                 <!-- Grid column -->
+
+
+                <!-- Grid column -->
+                <div class="mb-3 pics animation all 1">
+                    <img class="img-fluid" src="e-hangzhou.jpg" alt="xihu in hangzhou">
+                </div>
+                <!-- Grid column -->
+                <p class='p-style'> This is the story my life...</p>
+                <!-- Grid column -->
+                <div class="mb-3 pics animation ">
+                    <img src='e-tata.jpg' class="img-fluid" alt='eriene and tata'>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="mb-3 pics animation ">
+                    <img src='e-koko.jpg' class="img-fluid" alt='eriene and koko'>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="mb-3 pics animation ">
+                    <img src='e-shaggy.jpg' class="img-fluid" alt='shaggy the dog'>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="mb-3 pics animation ">
+                    <img src='e-middle.jpg' class="img-fluid" alt='eriene in middle school'>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="mb-3 pics animation ">
+                    <img src='e-scuba.jpg' class="img-fluid" alt='eriene diving'>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="mb-3 pics animation ">
+                    <img src='e-yogurt.jpg' class="img-fluid" alt='favorite yogurt'>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="mb-3 pics animation all 1">
+                    <img class="img-fluid" src="e-small.jpg" alt="eriene when small">
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="mb-3 pics animation all 1">
+                    <img class="img-fluid" src="e-baju.jpg" alt="eriene in baju kurung">
+                </div>
+                <!-- Grid column -->
+ 
 
                 
             </div>
             <!-- Grid row -->
         </div>
     </body>
+    <footer class="page-footer">
+        <div class="text-center py-3 column">
+            <p>
+                Here lies a footer and a footer it is. Hope you enjoyed this site!
+                <br>
+                <a href="https://github.com/eoh14/creative-project-1.git">My Github repo </a>
+            </p>
+        </div>
+    </footer>
 </html>
 
